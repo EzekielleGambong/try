@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner_image {
+    width: 100%;
+    height: 40%;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    margin-top: 0px;
+}
+
+.containerbanner>h3 {
+    color: red;
+    position: absolute;
+    left: 5vw;
+    top: 32vh;
+    font-size: 4vh;
+    font-weight: 500;
+}
+
+.containerbanner>h3>small {
+    font-weight: lighter;
+    color: white;
+}
+
+.containerbanner>h1 {
+    color: white;
+    position: absolute;
+    left: 4.6vw;
+    top: 32vh;
+    font-size: 15vh;
+    font-weight: 700;
+}
+
+.btn {
+    width: 100%;
+}
+
+.btn>button {
+    background-color: rgba(255,255,255,0.109);
+    color: white;
+    border: 0;
+    position: absolute;
+    top: 52vh;
+    min-width: 10vw;
+    max-width: 15vw;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    transition: .2s;
+}
+
+.btn>.playbtn {
+    left: 5vw;
+}
+
+.btn>.addbtn {
+    left: 15.5vw;
+}
+
+.btn>button:focus {
+    outline: none;
+    transform: scale(1.05);
+}
+
+.first_container {
+    position: absolute;
+    left: 5vw;
+    top: 58vh;
+    width: 22vw;
+}
+
+.first {
+    color: white;
+    font-size: 10px;
+}
